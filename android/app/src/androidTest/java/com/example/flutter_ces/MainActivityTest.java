@@ -1,20 +1,33 @@
 package com.example.flutter_ces;
 
 import androidx.test.platform.app.InstrumentationRegistry;
+import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
+import io.qameta.allure.android.rules.LogcatRule;
+import io.qameta.allure.android.rules.ScreenshotRule;
+import io.qameta.allure.android.rules.WindowHierarchyRule;
 import pl.leancode.patrol.PatrolJUnitRunner;
 
 @RunWith(Parameterized.class)
 public class MainActivityTest {
+    // Adjunta una captura de pantalla al final de cada test.
+    @Rule
+    public ScreenshotRule screenshotRule = new ScreenshotRule(ScreenshotRule.Mode.END, "ss_end");
+
+    // Adjunta un volcado de la jerarquia de la UI al final de cada test.
+    @Rule
+    public WindowHierarchyRule windowHierarchyRule = new WindowHierarchyRule();
+
+    // Embebe el logcat en el reporte.
+    @Rule
+    public LogcatRule logcatRule = new LogcatRule();
+
     @Parameters(name = "{0}")
     public static Object[] testCases() {
         PatrolJUnitRunner instrumentation = (PatrolJUnitRunner) InstrumentationRegistry.getInstrumentation();
-        // replace "MainActivity.class" with "io.flutter.embedding.android.FlutterActivity.class"
-        // if in AndroidManifest.xml in manifest/application/activity you have
-        //     android:name="io.flutter.embedding.android.FlutterActivity"
         instrumentation.setUp(MainActivity.class);
         instrumentation.waitForPatrolAppService();
         return instrumentation.listDartTests();

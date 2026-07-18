@@ -25,28 +25,38 @@ class PagoRobot {
     await $.pumpAndSettle();
   }
 
+  Future<void> _cerrarTeclado() async {
+    await $.tester.testTextInput.receiveAction(TextInputAction.done);
+    await $.tester.pump(const Duration(milliseconds: 300));
+  }
+
   Future<void> completarFormulario({
     required String numero,
     required String nombre,
     required String fecha,
     required String cvv,
   }) async {
+    // Número de tarjeta — tiene formatter, escribir acumulando
     await $(_campo('ccNumero')).waitUntilVisible();
     await _escribirAcumulando(_campo('ccNumero'), numero);
+    await _cerrarTeclado(); // ← cerrar teclado antes del siguiente campo
 
+    // Nombre en tarjeta
     await $(_campo('ccNombre')).waitUntilVisible();
     await $(_campo('ccNombre')).enterText(nombre);
-    await $.pumpAndSettle();
+    await _cerrarTeclado();
 
+    // Fecha de expiración — tiene formatter
     await $(_campo('ccExpFecha')).waitUntilVisible();
     await _escribirAcumulando(_campo('ccExpFecha'), fecha);
+    await _cerrarTeclado();
 
+    // CVV — tiene formatter
     await $(_campo('ccCodigo')).waitUntilVisible();
     await _escribirAcumulando(_campo('ccCodigo'), cvv);
 
     // Cerrar teclado y hacer scroll hasta el botón Comprar
-    await $.tester.testTextInput.receiveAction(TextInputAction.done);
-    await $.tester.pump(const Duration(milliseconds: 300));
+    await _cerrarTeclado();
     await $.tester.drag(
       find.byType(SingleChildScrollView).first,
       const Offset(0, -300),
@@ -57,8 +67,6 @@ class PagoRobot {
   Future<void> presionarComprar() async {
     await $(find.text('Comprar')).waitUntilVisible();
     await $(find.text('Comprar')).tap();
-    // La pantalla de éxito tiene animaciones continuas que bloquean pumpAndSettle.
-    // Usamos pump con tiempo fijo para dejar que la transición ocurra.
     await $.tester.pump(const Duration(seconds: 3));
   }
 }

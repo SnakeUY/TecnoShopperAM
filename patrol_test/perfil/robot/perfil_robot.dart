@@ -7,7 +7,6 @@ class PerfilRobot {
 
   PerfilRobot(this.$);
 
-  // account_page.dart: TextField con hintText
   Future<void> ingresarNombre(String valor) async {
     await $(find.byWidgetPredicate(
       (w) => w is TextField && w.decoration?.hintText == 'Nombre',
@@ -50,21 +49,27 @@ class PerfilRobot {
   }
 
   Future<void> volverAtras() async {
-    // account_page.dart usa Icons.arrow_back en el AppBar leading
     await $(find.byIcon(Icons.arrow_back)).tap();
     await $.pumpAndSettle();
   }
+
+  // ── Verificaciones ────────────────────────────────────────────
 
   Future<void> verificarPantallaPerfilVisible() async {
     await $(find.text('Datos de Cuenta')).waitUntilVisible();
   }
 
   Future<void> verificarGuardadoExitoso() async {
-    // account_page.dart muestra SnackBar con este texto
     await $(find.text('Perfil actualizado correctamente')).waitUntilVisible();
   }
 
   Future<void> verificarAppNoCrasheo() async {
+    // La app sigue activa y el botón Guardar sigue visible
     await $(find.text('Guardar')).waitUntilVisible();
+  }
+
+  Future<void> verificarDatoPersistido(String valor) async {
+    // El valor ingresado debe seguir visible en la pantalla de perfil
+    expect(find.text(valor), findsOneWidget);
   }
 }

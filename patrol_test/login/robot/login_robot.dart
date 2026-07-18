@@ -26,26 +26,24 @@ class LoginRobot {
   }
 
   Future<void> verificarInicioDeSesionExitoso() async {
-    // Después del login exitoso va a SplashPage y luego a ProductosPage
-    // Verificamos que el ícono del carrito del bottom nav sea visible
     await $(find.byIcon(Icons.shopping_cart_outlined)).waitUntilVisible();
   }
 
   Future<void> verificarLoginVisible() async {
-    // En TC-05/06: login falla y muestra AlertDialog.
-    // Hay que cerrar el diálogo primero para que el botón sea hit-testable.
-    // Esperamos que el diálogo aparezca y lo cerramos.
-    try {
-      await $(find.text('OK')).waitUntilVisible();
+    // Cerrar AlertDialog de error si está presente, sin esperar timeout completo
+    await $.pumpAndSettle();
+    if (find.text('OK').evaluate().isNotEmpty) {
       await $(find.text('OK')).tap();
       await $.pumpAndSettle();
-    } catch (_) {
-      // Si no hay diálogo, continuamos
     }
     await $(const ValueKey('login_button')).waitUntilVisible();
   }
 
-  Future<void> verificarMensajeDeError(String mensaje) async {
-    await $(find.text(mensaje)).waitUntilVisible();
+  Future<void> verificarNavegoACatalogo({required bool esperado}) async {
+    if (esperado) {
+      expect(find.byIcon(Icons.shopping_cart_outlined), findsOneWidget);
+    } else {
+      expect(find.byKey(const ValueKey('login_button')), findsOneWidget);
+    }
   }
 }

@@ -83,6 +83,6 @@ patrol:
   android:
     package_name: com.example.flutter_ces
   ios:
-    bundle_id: com.example.MyApp
+    bundle_id: com.example.flutterCes
   macos:
     bundle_id: com.example.macos.MyApp

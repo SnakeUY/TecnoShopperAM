@@ -77,14 +77,14 @@ class _ProductosPageState extends State<ProductosPage> {
       appBar: AppBar(
         leading: IconButton(
           onPressed: () => _scaffoldKey.currentState?.openDrawer(),
-          icon: const Icon(Icons.menu),
+          icon: Icon(Icons.menu),
           color: HomeStyles.appBarLeadingIconColor,
         ),
         toolbarHeight: 100,
         centerTitle: true,
         title: HomeStyles.appBarTitleImage,
         backgroundColor: HomeStyles.appBarBackgroundColor,
-        actions: const [],
+        actions: [],
         elevation: HomeStyles.appBarElevation,
       ),
       body: Stack(
@@ -116,8 +116,8 @@ class _ProductosPageState extends State<ProductosPage> {
         onCartPressed: () => Navigator.push(
           context,
           StackPagesRoute(
-            previousPages: [const ProductosPage()],
-            enterPage: const CarritoPage(),
+            previousPages: [ProductosPage()],
+            enterPage: CarritoPage(),
           ),
         ),
       ),
@@ -129,7 +129,7 @@ class _ProductosPageState extends State<ProductosPage> {
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          const DrawerHeader(
+          DrawerHeader(
             decoration: BoxDecoration(color: Colors.blue),
             child: Text(
               'Menu',
@@ -137,7 +137,7 @@ class _ProductosPageState extends State<ProductosPage> {
             ),
           ),
           ListTile(
-            title: const Text('Logout'),
+            title: Text('Logout'),
             onTap: () => _logout(context),
           ),
         ],
@@ -149,7 +149,7 @@ class _ProductosPageState extends State<ProductosPage> {
     Navigator.push(
       context,
       StackPagesRoute(
-        previousPages: [const ProductosPage()],
+        previousPages: [ProductosPage()],
         enterPage: CompraPage(producto: producto),
       ),
     );
@@ -159,8 +159,8 @@ class _ProductosPageState extends State<ProductosPage> {
     Navigator.push(
       context,
       StackPagesRoute(
-        previousPages: [const ProductosPage()],
-        enterPage: const LoginPage(),
+        previousPages: [ProductosPage()],
+        enterPage: LoginPage(),
       ),
     );
   }

@@ -55,3 +55,7 @@ app.*.map.json
 
 # Patrol
 test_bundle.dart
+
+# Allure
+allure-results/
+allure-report/

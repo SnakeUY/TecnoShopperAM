@@ -11,6 +11,7 @@ import '../data/perfil_data.dart';
 void main() {
   patrolTest(
     'TC-09 - Configurar y guardar información personal',
+    tags: ['smoke', 'perfil'],
     ($) async {
       await $.pumpWidgetAndSettle(const MyApp());
 
@@ -18,6 +19,8 @@ void main() {
       final catalogo = CatalogoRobot($);
       final perfil   = PerfilRobot($);
 
+      // ── Precondición ──────────────────────────────────────────
+      await login.verificarLoginVisible();
       await ensureUsuarioRegistrado($);
 
       final email    = await TestCredentials.leerEmail();
@@ -28,7 +31,10 @@ void main() {
       await login.presionarBotonLogin();
       await login.verificarInicioDeSesionExitoso();
 
+      // ── Perfil ────────────────────────────────────────────────
       await catalogo.irAlPerfil();
+
+      // Verificación: pantalla de perfil visible
       await perfil.verificarPantallaPerfilVisible();
 
       await perfil.ingresarNombre(PerfilData.nombre);
@@ -39,18 +45,23 @@ void main() {
       await perfil.ingresarPais(PerfilData.pais);
       await perfil.presionarGuardar();
 
+      // Verificación: toast de confirmación visible
       await perfil.verificarGuardadoExitoso();
 
+      // Verificación: datos persisten al volver y re-abrir perfil
       await perfil.volverAtras();
       await catalogo.irAlPerfil();
       await perfil.verificarPantallaPerfilVisible();
+      await perfil.verificarDatoPersistido(PerfilData.nombre);
 
       await catalogo.presionarLogout();
+      await login.verificarLoginVisible();
     },
   );
 
   patrolTest(
     'TC-10 - Configurar información personal con campos vacíos',
+    tags: ['regression', 'perfil'],
     ($) async {
       await $.pumpWidgetAndSettle(const MyApp());
 
@@ -58,6 +69,8 @@ void main() {
       final catalogo = CatalogoRobot($);
       final perfil   = PerfilRobot($);
 
+      // ── Precondición ──────────────────────────────────────────
+      await login.verificarLoginVisible();
       await ensureUsuarioRegistrado($);
 
       final email    = await TestCredentials.leerEmail();
@@ -71,6 +84,7 @@ void main() {
       await catalogo.irAlPerfil();
       await perfil.verificarPantallaPerfilVisible();
 
+      // Limpiar todos los campos
       await perfil.ingresarNombre(PerfilData.vacio);
       await perfil.ingresarApellido(PerfilData.vacio);
       await perfil.ingresarTelefono(PerfilData.vacio);
@@ -79,7 +93,11 @@ void main() {
       await perfil.ingresarPais(PerfilData.vacio);
       await perfil.presionarGuardar();
 
+      // Verificación: la app no crasheó
       await perfil.verificarAppNoCrasheo();
+
+      // Verificación: sigue en la pantalla de perfil
+      await perfil.verificarPantallaPerfilVisible();
     },
   );
 }

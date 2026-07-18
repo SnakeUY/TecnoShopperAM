@@ -52,7 +52,7 @@ class SubmitButton extends StatelessWidget {
           ),
           if (isErrorVisible)
             Padding(
-                padding: const EdgeInsets.only(top: 6.0),
+                padding: EdgeInsets.only(top: 6.0),
                 child: Text('No has terminado de rellenar toda la informacion', style: FormStyles.formError))
         ],
       ),

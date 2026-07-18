@@ -48,7 +48,7 @@ class _ProductPageTemplate extends StatelessWidget {
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(HomeStyles.borderRadius),
             topRight: Radius.circular(HomeStyles.borderRadius),
@@ -145,7 +145,7 @@ class _FeatureCard extends StatelessWidget {
       decoration: BoxDecoration(
         color: HomeStyles.backgroundColorBoton,
         borderRadius: BorderRadius.circular(HomeStyles.borderRadiusBoton),
-        boxShadow: const [
+        boxShadow: [
           BoxShadow(
             color: HomeStyles.shadowColor,
             offset: Offset(HomeStyles.shadowOffsetX, HomeStyles.shadowOffsetY),

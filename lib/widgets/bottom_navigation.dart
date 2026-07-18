@@ -57,7 +57,7 @@ class _BottomState extends State<Bottom> {
                     hintText: 'Buscar...',
                     border: InputBorder.none,
                     contentPadding:
-                        EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                        const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                   ),
                   onChanged: widget.onSearchChanged,
                 ),

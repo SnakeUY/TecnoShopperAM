@@ -7,13 +7,11 @@ class CarritoRobot {
 
   CarritoRobot(this.$);
 
-  // carrito_page.dart usa Icons.delete para eliminar
   Future<void> eliminarPrimerProducto() async {
     await $(find.byIcon(Icons.delete)).first.tap();
     await $.pumpAndSettle();
   }
 
-  // Icons.add y Icons.remove para cantidad
   Future<void> aumentarCantidadPrimerProducto() async {
     await $(find.byIcon(Icons.add)).first.tap();
     await $.pumpAndSettle();
@@ -31,10 +29,11 @@ class CarritoRobot {
   }
 
   Future<void> volverAlCatalogo() async {
-    // AppBar del carrito tiene botón de volver automático (Navigator.pop)
     await $(find.byType(BackButton)).tap();
     await $.pumpAndSettle();
   }
+
+  // ── Verificaciones ────────────────────────────────────────────
 
   Future<void> verificarCarritoVacio() async {
     await $(find.text('Total: \$0.0')).waitUntilVisible();
@@ -42,5 +41,18 @@ class CarritoRobot {
 
   Future<void> verificarBotonFinalizarVisible() async {
     await $(find.text('Finalizar Compra')).waitUntilVisible();
+  }
+
+  Future<void> verificarFinalizarDeshabilitado() async {
+    // Con carrito vacío el botón existe pero no es hit-testable
+    expect(
+      $(find.text('Finalizar Compra')).hitTestable(),
+      findsNothing,
+    );
+  }
+
+  Future<void> verificarTotalMayorACero() async {
+    // Verifica que el total no sea $0.0 (hay productos en el carrito)
+    expect(find.text('Total: \$0.0'), findsNothing);
   }
 }

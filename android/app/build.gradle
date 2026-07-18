@@ -25,7 +25,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "com.example.flutter_ces"
-    compileSdkVersion 36
+    compileSdk 36
     ndkVersion flutter.ndkVersion
 
     compileOptions {
@@ -79,4 +79,5 @@ dependencies {
     androidTestImplementation "io.qameta.allure:allure-kotlin-junit4:2.4.0"
     androidTestImplementation "io.qameta.allure:allure-kotlin-android:2.4.0"
     androidTestUtil "androidx.test:orchestrator:1.5.1"
+    androidTestUtil "androidx.test.services:test-services:1.5.0"
 }

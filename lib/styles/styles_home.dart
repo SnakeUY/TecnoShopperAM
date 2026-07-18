@@ -22,10 +22,10 @@ class HomeStyles {
       ),
     ],
   );
-  static const TextStyle nombreTextStyle = TextStyle(
+  static final TextStyle nombreTextStyle = const TextStyle(
       fontSize: 14, fontWeight: FontWeight.w600, color: Colors.black87);
-  static const TextStyle infoTextStyle =
-      TextStyle(color: Color(0xFF555555), fontSize: 12);
+  static final TextStyle infoTextStyle =
+      const TextStyle(color: Color(0xFF555555), fontSize: 12);
 
   //Bottom Styles
   static const Color backgroundColor = Color(0xff21262E);

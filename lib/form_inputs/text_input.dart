@@ -150,11 +150,11 @@ class _TextInputState extends State<TextInput> {
         type = TextInputType.emailAddress;
         break;
       case InputType.telephone:
-        type = const TextInputType.numberWithOptions(decimal: true);
+        type = TextInputType.numberWithOptions(decimal: true);
         break;
 
       case InputType.number:
-        type = const TextInputType.numberWithOptions(signed: true, decimal: true);
+        type = TextInputType.numberWithOptions(signed: true, decimal: true);
         break;
       case InputType.text:
         return TextInputType.text;

@@ -8,9 +8,9 @@ import '../../login/data/test_credentials.dart';
 import '../../carrito/robot/catalogo_robot.dart';
 
 void main() {
-  // TC-01: Registrarse con datos válidos
   patrolTest(
     'TC-01 - Registrarse con datos válidos',
+    tags: ['smoke', 'registro'],
     ($) async {
       await $.pumpWidgetAndSettle(const MyApp());
 
@@ -18,11 +18,16 @@ void main() {
       final registro = RegistroRobot($);
       final catalogo = CatalogoRobot($);
 
-      // Navegar a registro
+      // ── Precondición ──────────────────────────────────────────
+      // Verificar que la pantalla de login está activa
+      await login.verificarLoginVisible();
+
+      // ── Pasos ─────────────────────────────────────────────────
       await login.presionarRegistrarte();
+
+      // Verificación: pantalla de registro visible
       await registro.verificarPantallaRegistroVisible();
 
-      // Generar credenciales únicas para esta sesión
       final email    = AuthData.emailRegistroUnico();
       final password = AuthData.password;
 
@@ -30,33 +35,39 @@ void main() {
       await registro.ingresarPassword(password);
       await registro.presionarRegistrarse();
 
-      // Verificar diálogo de éxito y confirmar
-      // El OK navega directamente al LoginPage
+      // Verificación: diálogo de registro exitoso visible
       await registro.verificarRegistroExitoso();
       await registro.confirmarRegistroExitoso();
 
-      // Guardar credenciales para los tests posteriores
+      // Guardar credenciales para tests posteriores
       await TestCredentials.guardar(email, password);
 
-      // Ahora estamos en LoginPage — verificar login con la cuenta creada
+      // Verificación: puede iniciar sesión con la cuenta recién creada
       await login.ingresarEmail(email);
       await login.ingresarPassword(password);
       await login.presionarBotonLogin();
       await login.verificarInicioDeSesionExitoso();
 
+      // Verificación: catálogo visible — usuario autenticado correctamente
+      await catalogo.verificarCatalogoVisible();
+
       await catalogo.presionarLogout();
+
+      // Verificación final: volvió a la pantalla de login
+      await login.verificarLoginVisible();
     },
   );
 
-  // TC-02: Registrarse con contraseña vacía
   patrolTest(
     'TC-02 - Registrarse con datos inválidos (contraseña vacía)',
+    tags: ['regression', 'registro'],
     ($) async {
       await $.pumpWidgetAndSettle(const MyApp());
 
       final login    = LoginRobot($);
       final registro = RegistroRobot($);
 
+      await login.verificarLoginVisible();
       await login.presionarRegistrarte();
       await registro.verificarPantallaRegistroVisible();
 
@@ -64,19 +75,24 @@ void main() {
       await registro.ingresarPassword(AuthData.passwordVacio);
       await registro.presionarRegistrarse();
 
+      // Verificación: el registro NO fue exitoso
       await registro.verificarRegistroFallido();
+
+      // Verificación: sigue en pantalla de registro (no navegó)
+      await registro.verificarPantallaRegistroVisible();
     },
   );
 
-  // TC-03: Registrarse con email sin formato válido
   patrolTest(
     'TC-03 - Registrarse con datos inválidos (email sin formato)',
+    tags: ['regression', 'registro'],
     ($) async {
       await $.pumpWidgetAndSettle(const MyApp());
 
       final login    = LoginRobot($);
       final registro = RegistroRobot($);
 
+      await login.verificarLoginVisible();
       await login.presionarRegistrarte();
       await registro.verificarPantallaRegistroVisible();
 
@@ -84,7 +100,11 @@ void main() {
       await registro.ingresarPassword(AuthData.password);
       await registro.presionarRegistrarse();
 
+      // Verificación: el registro NO fue exitoso
       await registro.verificarRegistroFallido();
+
+      // Verificación: sigue en pantalla de registro (no navegó)
+      await registro.verificarPantallaRegistroVisible();
     },
   );
 }

@@ -44,8 +44,8 @@ class CompraFormSummary extends StatelessWidget {
     Navigator.push(
       context,
       StackPagesRoute(
-        previousPages: [const CompraFormSummary(pageSize: .85, isHidden: true)],
-        enterPage: const CompraFormInformation(),
+        previousPages: [CompraFormSummary(pageSize: .85, isHidden: true)],
+        enterPage: CompraFormInformation(),
       ),
     );
   }

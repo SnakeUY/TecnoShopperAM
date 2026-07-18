@@ -150,7 +150,7 @@ class _DropdownOptionsState extends State<DropdownOptions> {
       ),
       backgroundColor: const Color(0xfff4f4f4),
       body: Container(
-        decoration: const BoxDecoration(border: Border(top: BorderSide(color: FormStyles.grayColor))),
+        decoration: BoxDecoration(border: Border(top: BorderSide(color: FormStyles.grayColor))),
         child: Flex(
           direction: Axis.vertical,
           children: <Widget>[
@@ -171,7 +171,7 @@ class _DropdownOptionsState extends State<DropdownOptions> {
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 12),
         decoration:
-            const BoxDecoration(color: Colors.white, border: Border(bottom: BorderSide(color: FormStyles.lightGrayColor))),
+            BoxDecoration(color: Colors.white, border: Border(bottom: BorderSide(color: FormStyles.lightGrayColor))),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[

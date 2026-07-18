@@ -39,7 +39,7 @@ class _CompraFormsDemoState extends State<CompraFormsDemo> {
               onGenerateRoute: (route) {
                 return StackPagesRoute(
                   previousPages: [],
-                  enterPage: const LoginPage(),
+                  enterPage: LoginPage(),
                   //enterPage: PlantFormPayment(),
                 );
               },
