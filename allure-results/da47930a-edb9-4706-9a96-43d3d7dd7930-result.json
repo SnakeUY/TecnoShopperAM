@@ -1,0 +1,50 @@
+{
+    "name": "runDartTest[a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)]",
+    "start": 1784393405837,
+    "stop": 1784393405844,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "da47930a-edb9-4706-9a96-43d3d7dd7930",
+    "historyId": "6eb33c8f752fb6743cd89a54c0b1a235",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(46)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

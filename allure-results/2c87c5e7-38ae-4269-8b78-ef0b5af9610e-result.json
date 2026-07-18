@@ -1,0 +1,56 @@
+{
+    "name": "runDartTest[perfil.tests.perfil_test TC-10 - Configurar información personal con campos vacíos]",
+    "start": 1784393570904,
+    "stop": 1784393581854,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [
+        {
+            "source": "d273a361-0ed0-49a8-b85c-b9b421f1efb7-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [],
+    "uuid": "2c87c5e7-38ae-4269-8b78-ef0b5af9610e",
+    "historyId": "519fee4a63d128c2870dd42674d0d5f6",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[perfil.tests.perfil_test TC-10 - Configurar información personal con campos vacíos]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[perfil.tests.perfil_test TC-10 - Configurar información personal con campos vacíos]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(47)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

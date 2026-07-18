@@ -1,0 +1,50 @@
+{
+    "name": "runDartTest[carrito.tests.carrito_test TC-07 - Crear un carrito de compra y concretarlo]",
+    "start": 1784393405898,
+    "stop": 1784393405902,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "uuid": "a48e0388-3670-4b4b-8bc8-559a555419f0",
+    "historyId": "2f63f0c410e72a362b2c45bef140f86e",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[carrito.tests.carrito_test TC-07 - Crear un carrito de compra y concretarlo]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[carrito.tests.carrito_test TC-07 - Crear un carrito de compra y concretarlo]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(46)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

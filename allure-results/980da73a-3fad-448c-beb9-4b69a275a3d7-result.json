@@ -1,0 +1,56 @@
+{
+    "name": "runDartTest[login.tests.login_test TC-05 - Iniciar sesión con datos inválidos (contraseña incorrecta)]",
+    "start": 1784393532392,
+    "stop": 1784393537240,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [
+        {
+            "source": "e0bb945e-e900-40b0-b026-5beb7da6afbb-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [],
+    "uuid": "980da73a-3fad-448c-beb9-4b69a275a3d7",
+    "historyId": "1f572d04e14411e937d143765edc12cc",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[login.tests.login_test TC-05 - Iniciar sesión con datos inválidos (contraseña incorrecta)]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[login.tests.login_test TC-05 - Iniciar sesión con datos inválidos (contraseña incorrecta)]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(47)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

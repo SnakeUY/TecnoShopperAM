@@ -1,0 +1,56 @@
+{
+    "name": "runDartTest[login.tests.login_test TC-04 - Iniciar sesión con datos válidos]",
+    "start": 1784393517121,
+    "stop": 1784393527719,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [
+        {
+            "source": "de04ef6e-702a-4059-87f2-8f7a7df676a0-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [],
+    "uuid": "4cb5c035-2590-4aa5-89cb-42ea0c34879c",
+    "historyId": "abbf3a59b8f92266a19546168da0acb",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[login.tests.login_test TC-04 - Iniciar sesión con datos válidos]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[login.tests.login_test TC-04 - Iniciar sesión con datos válidos]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(46)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

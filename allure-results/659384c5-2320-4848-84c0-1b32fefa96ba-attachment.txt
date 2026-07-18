@@ -1,0 +1,408 @@
+--------- beginning of main
+07-18 16:50:38.389   713   755 I ActivityTaskManager: Displayed com.example.flutter_ces/.MainActivity for user 0: +2s900ms
+07-18 16:50:38.391   713   755 I ActivityTaskManager: Fully drawn com.example.flutter_ces/.MainActivity: +2s900ms
+07-18 16:50:38.402 22866 22866 D FlutterJNI: Sending viewport metrics to the engine.
+07-18 16:50:38.431  1216  1216 D BaseActivity: Launcher flags updated: [] -[state_started]
+07-18 16:50:38.431  1216  1216 D BaseDepthController: setSurface:
+07-18 16:50:38.431  1216  1216 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+07-18 16:50:38.431  1216  1216 D BaseDepthController: 	mBaseSurface: null
+07-18 16:50:38.433  1216  1216 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+07-18 16:50:38.434  1216  1216 D LauncherStateManager: StateManager.goToState: fromState: Normal, toState: Normal, partial trace:
+07-18 16:50:38.434  1216  1216 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 9bf9d747b28c192bd799fb0161a08498ac2b938f666e7966c0095b4da2c9b843:26)
+07-18 16:50:38.434  1216  1216 D LauncherStateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(go/retraceme 9bf9d747b28c192bd799fb0161a08498ac2b938f666e7966c0095b4da2c9b843:35)
+07-18 16:50:38.434  1216  1216 D LauncherStateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(go/retraceme 9bf9d747b28c192bd799fb0161a08498ac2b938f666e7966c0095b4da2c9b843:31)
+07-18 16:50:38.435  1216  1216 D LauncherStateManager: StateManager.onRepeatStateSetAborted: state: Normal
+07-18 16:50:38.435  1216  1216 D KeyboardStateManager: hideKeyboard
+07-18 16:50:38.435  1216  1216 D KeyboardStateManager: isImeShown: false
+07-18 16:50:38.436  1216  1216 D StatsLog: LAUNCHER_ONSTOP
+07-18 16:50:38.444  1216  1216 D StatsLog: LAUNCHER_GOOGLE_SEARCH_RESTORE_LIST_SIZE_AFTER_ACTIVITY_RESTART
+07-18 16:50:38.460 22866 22880 I PatrolServer: PatrolJUnitRunner.runDartTest(a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)): Requested execution
+--------- beginning of system
+07-18 16:50:38.460   713   882 I ImeTracker: com.example.flutter_ces:2cf88635: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false userId 0 displayId 0
+07-18 16:50:38.465 22866 22880 I PatrolServer: PatrolAppServiceClient.runDartTest(a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato))
+07-18 16:50:38.469   713  1966 D InputMethodManagerService: Attach new input but force hide
+07-18 16:50:38.469   713  1966 I ImeTracker: com.example.flutter_ces:91cc2625: onRequestHide at ORIGIN_SERVER reason HIDE_SOFT_INPUT fromUser false userId 0 displayId 0
+07-18 16:50:38.512   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.512   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.513   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.514   713  1966 I ImeTracker: com.example.flutter_ces:91cc2625: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-18 16:50:38.515   713  1966 W InputChannel-JNI: Channel already disposed.
+07-18 16:50:38.517  5761  5761 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2276 
+07-18 16:50:38.518  5761  5761 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1460 onStartInput(EditorInfo{EditorInfo{packageName=com.example.flutter_ces, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=0, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+07-18 16:50:38.519  5761  5761 I LatinIMEBase: LatinIMEBase.updateInputViewCoverNavigation():317 Update input view padding, isNavbarOverInputWindow=true, bottom inset=126
+07-18 16:50:38.520  5761 22606 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():129 repeatCheckTimes = 0, locked = false
+07-18 16:50:38.521   713  1966 I ImeTracker: system_server:edd75e3b: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false displayId 0
+07-18 16:50:38.521   713  1955 W PackageConfigPersister: App-specific configuration not found for packageName: com.example.flutter_ces and userId: 0
+07-18 16:50:38.521   713   758 I ImeTracker: system_server:edd75e3b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+07-18 16:50:38.522  5761 22606 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():129 repeatCheckTimes = 1, locked = false
+07-18 16:50:38.552  1216  1228 W System  : A resource failed to call release. 
+07-18 16:50:38.552  1216  1228 W System  : A resource failed to call release. 
+07-18 16:50:38.552  1216  1228 W System  : A resource failed to call release. 
+07-18 16:50:38.578 22866 22866 I flutter : PatrolAppService.runDartTest(a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)) called
+07-18 16:50:38.579 22866 22866 I flutter : PatrolAppService: registered test "a_registro.tests.registro_test TC-01 - Registrarse con datos válidos" was not matched by requested test "a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)"
+07-18 16:50:38.649 22866 22866 I flutter : PatrolBinding: tearDown(): count: 1, results: {TC-01 - Registrarse con datos válidos: success}
+07-18 16:50:38.649 22866 22866 I flutter : PatrolBinding: finished test a_registro.tests.registro_test TC-01 - Registrarse con datos válidos, but it was not requested, so its status will not be reported back to the native side
+07-18 16:50:38.651 22866 22866 I flutter : 00:00 +2: a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)
+07-18 16:50:38.666 22866 22866 D InsetsController: hide(ime())
+07-18 16:50:38.667 22866 22866 I ImeTracker: com.example.flutter_ces:2cf88635: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+07-18 16:50:38.677 22866 22866 I flutter : PatrolAppService: registered "a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)"
+07-18 16:50:38.678 22866 22866 I flutter : PatrolAppService: registered test "a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)" was not matched by requested test "a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)"
+07-18 16:50:38.688   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.688   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.688   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.708 22866 22866 I flutter : PatrolBinding: tearDown(): count: 2, results: {TC-01 - Registrarse con datos válidos: success, TC-02 - Registrarse con datos inválidos (contraseña vacía): success}
+07-18 16:50:38.708 22866 22866 I flutter : PatrolBinding: finished test a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía), but it was not requested, so its status will not be reported back to the native side
+07-18 16:50:38.715 22866 22866 I flutter : 00:01 +3: a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)
+07-18 16:50:38.740 22866 22866 I flutter : PatrolAppService: registered "a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)"
+07-18 16:50:38.740 22866 22866 I flutter : PatrolAppService: requested execution of test "a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)"
+07-18 16:50:38.744 22866 22866 I flutter : Patrol (native): configure() started
+07-18 16:50:38.765   713  1736 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+07-18 16:50:38.785 22866 22889 I PatrolServer: POST /configure started
+07-18 16:50:38.789 22866 22889 I PatrolServer: Timeout: 10000 ms
+07-18 16:50:38.789 22866 22889 I PatrolServer: Android UiAutomator configuration:
+07-18 16:50:38.790 22866 22889 I PatrolServer: 	waitForSelectorTimeout: 10000 ms
+07-18 16:50:38.790 22866 22889 I PatrolServer: 	waitForIdleTimeout: 5000 ms
+07-18 16:50:38.790 22866 22889 I PatrolServer: 	keyInjectionDelay: 50 ms
+07-18 16:50:38.790 22866 22889 I PatrolServer: 	actionAcknowledgmentTimeout: 3000 ms
+07-18 16:50:38.790 22866 22889 I PatrolServer: 	scrollAcknowledgmentTimeout: 1000 ms
+07-18 16:50:38.790 22866 22889 I PatrolServer: 	toolType: 1
+07-18 16:50:38.791 22866 22889 I PatrolServer: 	uiAutomationFlags: 1
+07-18 16:50:38.796 22866 22889 I PatrolServer: POST /configure took 11 ms
+07-18 16:50:38.806 22866 22866 I flutter : Patrol (native): configure() succeeded
+07-18 16:50:38.812  1194  1373 D SatelliteController: isInCarrierRoamingNbIotNtn: satellite is disabled
+07-18 16:50:38.812  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectType: Checking connect type from PLMN config for subId: 1
+07-18 16:50:38.812  1194  1373 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+07-18 16:50:38.813  1194  1373 V SatelliteController: satelliteConfigParser is not ready
+07-18 16:50:38.813  1194  1373 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+07-18 16:50:38.813  1194  1373 D SatelliteController: getSatellitePerPlmnConfiguration: invalid subId or not supported via carrier.
+07-18 16:50:38.813  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectType: config: null
+07-18 16:50:38.813  1194  1373 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+07-18 16:50:38.813  1194  1373 V SatelliteController: satelliteConfigParser is not ready
+07-18 16:50:38.813  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectTypeViaConfigUpdater: return null (satelliteConfig is null)
+07-18 16:50:38.815  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+07-18 16:50:38.815  1194  1373 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+07-18 16:50:38.815  1194  1373 V SatelliteController: satelliteConfigParser is not ready
+07-18 16:50:38.815  1194  1373 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+07-18 16:50:38.815  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectType: Checking connect type from PLMN config for subId: 1
+07-18 16:50:38.815  1194  1373 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+07-18 16:50:38.815  1194  1373 V SatelliteController: satelliteConfigParser is not ready
+07-18 16:50:38.815  1194  1373 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+07-18 16:50:38.816  1194  1373 D SatelliteController: getSatellitePerPlmnConfiguration: invalid subId or not supported via carrier.
+07-18 16:50:38.816  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectType: config: null
+07-18 16:50:38.816  1194  1373 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+07-18 16:50:38.816  1194  1373 V SatelliteController: satelliteConfigParser is not ready
+07-18 16:50:38.816  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectTypeViaConfigUpdater: return null (satelliteConfig is null)
+07-18 16:50:38.817  1194  1373 D SatelliteController: getCarrierRoamingNtnConnectType: Falling back to global carrier config connect type: 0
+07-18 16:50:38.817  1194  1373 D TelephonyConfigUpdateInstallReceiver: getConfigParser: domain=satellite
+07-18 16:50:38.817  1194  1373 V SatelliteController: satelliteConfigParser is not ready
+07-18 16:50:38.819  1194  1373 D SatelliteController: isSatelliteAttachSupportedViaConfigupdater: return null (satelliteConfig is null)
+07-18 16:50:38.820 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:38.807999","type":"test","name":"a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)","status":"start","error":null}
+07-18 16:50:38.968   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.968   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:38.968   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.104   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.104   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.233   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.233   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.334   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.334   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.823   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.823   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:39.845 22866 22866 D DesktopExperienceFlags: Toggle override initialized to: false
+07-18 16:50:39.912 22866 22866 D FlutterJNI: Sending viewport metrics to the engine.
+07-18 16:50:39.947 22866 22953 D ProfileInstaller: Installing profile for com.example.flutter_ces
+07-18 16:50:40.032   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.033   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.099 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.079965","type":"step","action":"\u001b[36mwaitUntilVisible\u001b[0m widgets with key [<'login_button'>].","status":"start","data":null}
+07-18 16:50:40.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.099707","type":"step","action":"\u001b[36mwaitUntilVisible\u001b[0m widgets with key [<'login_button'>].","status":"success","data":null}
+07-18 16:50:40.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.101846","type":"step","action":"\u001b[33mtap\u001b[0m widgets with text \"¿Necesitás registrarte?\".","status":"start","data":null}
+07-18 16:50:40.188   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.188   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.214   713  1986 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+07-18 16:50:40.214   713  1966 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+07-18 16:50:40.385   536   572 I APM_AudioPolicyManager: getNewOutputDevices io 13 recent device override {AUDIO_DEVICE_OUT_SPEAKER, @:}
+07-18 16:50:40.406   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.406   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.415   713   925 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+07-18 16:50:40.653   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.653   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.712 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.711667","type":"step","action":"\u001b[33mtap\u001b[0m widgets with text \"¿Necesitás registrarte?\".","status":"success","data":null}
+07-18 16:50:40.832 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.829454","type":"step","action":"\u001b[36mwaitUntilVisible\u001b[0m widgets with text \"Crea tu cuenta\".","status":"start","data":null}
+07-18 16:50:40.844 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.832201","type":"step","action":"\u001b[36mwaitUntilVisible\u001b[0m widgets with text \"Crea tu cuenta\".","status":"success","data":null}
+07-18 16:50:40.844 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:40.837316","type":"step","action":"\u001b[35menterText\u001b[0m widgets with widget matching predicate.","status":"start","data":null}
+07-18 16:50:40.928   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:40.928   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.022   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.022   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.254   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.254   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.315 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:41.312777","type":"step","action":"\u001b[35menterText\u001b[0m widgets with widget matching predicate.","status":"success","data":null}
+07-18 16:50:41.315 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:41.313096","type":"step","action":"\u001b[35menterText\u001b[0m widgets with widget matching predicate.","status":"start","data":null}
+07-18 16:50:41.506   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.506   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.568 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:41.565174","type":"step","action":"\u001b[35menterText\u001b[0m widgets with widget matching predicate.","status":"success","data":null}
+07-18 16:50:41.568 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:41.565529","type":"step","action":"\u001b[33mtap\u001b[0m widgets with widget matching predicate.","status":"start","data":null}
+07-18 16:50:41.619   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.619   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.659   713  1962 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+07-18 16:50:41.660   713  1966 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 16
+07-18 16:50:41.669   536   587 D AudioFlinger: mixer(0x7a72c6733790) throttle end: throttle time(36)
+07-18 16:50:41.723   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.723   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.858   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.858   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.875   536   572 I APM_AudioPolicyManager: getNewOutputDevices io 13 recent device override {AUDIO_DEVICE_OUT_SPEAKER, @:}
+07-18 16:50:41.964   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:41.964   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.172   713   929 E Nl80211Native: getChannelsMhzForBand: Wiphy index not recorded for band 8
+07-18 16:50:42.172   713   929 E Nl80211Native: getChannelsMhzForBand: Wiphy index not recorded for band 16
+07-18 16:50:42.172   713   929 D Nl80211Native: Ignoring unsupported scan type 2
+07-18 16:50:42.173   713   929 I Nl80211Proxy: Sending Nl80211 message: GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{56}, nlmsg_type{30()}, nlmsg_flags{5(NLM_F_REQUEST|NLM_F_ACK)}, nlmsg_seq{89}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{33}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{-32723}, nla_value{04000000}, }, StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }, StructNlAttr{ nla_len{12}, nla_type{-32724}, nla_value{080000008F090000}, }, StructNlAttr{ nla_len{8}, nla_type{158}, nla_value{00000000}, }]} }
+07-18 16:50:42.174   713   929 I Nl80211Proxy: Received NLMSG_ERROR with error 0 for message GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{56}, nlmsg_type{30()}, nlmsg_flags{5(NLM_F_REQUEST|NLM_F_ACK)}, nlmsg_seq{89}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{33}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{-32723}, nla_value{04000000}, }, StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }, StructNlAttr{ nla_len{12}, nla_type{-32724}, nla_value{080000008F090000}, }, StructNlAttr{ nla_len{8}, nla_type{158}, nla_value{00000000}, }]} }
+07-18 16:50:42.210   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.210   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.225   713   925 D WifiNative: Scan result ready event
+07-18 16:50:42.227   713   929 I Nl80211Proxy: Sending Nl80211 message: GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{20}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{90}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{5}, version{1}, reserved{0} }}, attributes{[]} }
+07-18 16:50:42.227   713   929 I Nl80211Proxy: Received NLMSG_DONE for message GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{20}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{90}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{5}, version{1}, reserved{0} }}, attributes{[]} }
+07-18 16:50:42.227   713   929 W Nl80211Utils: Malformed NEW_INTERFACE response: missing attributes
+07-18 16:50:42.228   713   929 I Nl80211Proxy: Sending Nl80211 message: GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{28}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{91}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{32}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }]} }
+07-18 16:50:42.228   713   929 I Nl80211Proxy: Received NLMSG_DONE for message GenericNetlinkMsg{ nlHeader{StructNlMsgHdr{ nlmsg_len{28}, nlmsg_type{30()}, nlmsg_flags{769(NLM_F_REQUEST|NLM_F_DUMP)}, nlmsg_seq{91}, nlmsg_pid{0} }}, genNlHeader{StructGenNlMsgHdr{ command{32}, version{1}, reserved{0} }}, attributes{[StructNlAttr{ nla_len{8}, nla_type{3}, nla_value{10000000}, }]} }
+07-18 16:50:42.229   713   929 D WificondScannerImpl: Filtering out 1 scan results.
+07-18 16:50:42.236   713   925 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+07-18 16:50:42.274  1019  1019 I wpa_supplicant: wlan0: CTRL-EVENT-BEACON-LOSS 
+07-18 16:50:42.285   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.285   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.347 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:42.346892","type":"step","action":"\u001b[33mtap\u001b[0m widgets with widget matching predicate.","status":"success","data":null}
+07-18 16:50:42.416   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.416   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.516   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:42.516   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:43.068 22866 22866 I flutter : ══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+07-18 16:50:43.069 22866 22866 I flutter : The following TestFailure was thrown running a test:
+07-18 16:50:43.069 22866 22866 I flutter : Expected: no matching candidates
+07-18 16:50:43.070 22866 22866 I flutter :   Actual: _TextWidgetFinder:<Found 1 widget with text "Registro exitoso": [
+07-18 16:50:43.071 22866 22866 I flutter :             Text("Registro exitoso", dependencies: [DefaultSelectionStyle, DefaultTextStyle,
+07-18 16:50:43.071 22866 22866 I flutter : MediaQuery]),
+07-18 16:50:43.071 22866 22866 I flutter :           ]>
+07-18 16:50:43.071 22866 22866 I flutter :    Which: means one was found but none were expected
+07-18 16:50:43.071 22866 22866 I flutter : 
+07-18 16:50:43.071 22866 22866 I flutter : When the exception was thrown, this was the stack:
+07-18 16:50:43.071 22866 22866 I flutter : #4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart:49:5)
+07-18 16:50:43.071 22866 22866 I flutter : #5      main.<anonymous closure> (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/tests/registro_test.dart:104:22)
+07-18 16:50:43.071 22866 22866 I flutter : <asynchronous suspension>
+07-18 16:50:43.071 22866 22866 I flutter : #6      patrolTest.<anonymous closure> (package:patrol/src/common.dart:169:9)
+07-18 16:50:43.071 22866 22866 I flutter : <asynchronous suspension>
+07-18 16:50:43.071 22866 22866 I flutter : #7      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+07-18 16:50:43.072 22866 22866 I flutter : <asynchronous suspension>
+07-18 16:50:43.072 22866 22866 I flutter : #8      PatrolBinding._wrapTestBodyWithExceptionGatherer (package:patrol/src/binding.dart:246:5)
+07-18 16:50:43.072 22866 22866 I flutter : <asynchronous suspension>
+07-18 16:50:43.072 22866 22866 I flutter : #9      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1952:5)
+07-18 16:50:43.072 22866 22866 I flutter : <asynchronous suspension>
+07-18 16:50:43.072 22866 22866 I flutter : #10     TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1706:12)
+07-18 16:50:43.072 22866 22866 I flutter : <asynchronous suspension>
+07-18 16:50:43.072 22866 22866 I flutter : 
+07-18 16:50:43.072 22866 22866 I flutter : This was caught by the test expectation on the following line:
+07-18 16:50:43.072 22866 22866 I flutter :   file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart line 49
+07-18 16:50:43.072 22866 22866 I flutter : The test description was:
+07-18 16:50:43.072 22866 22866 I flutter :   TC-03 - Registrarse con datos inválidos (email sin formato)
+07-18 16:50:43.072 22866 22866 I flutter : ════════════════════════════════════════════════════════════════════════════════════════════════════
+07-18 16:50:43.078 22866 22866 I flutter : 00:05 +3: a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato) [E]
+07-18 16:50:43.080 22866 22866 I flutter :   Test failed. See exception logs above.
+07-18 16:50:43.080 22866 22866 I flutter :   The test description was: TC-03 - Registrarse con datos inválidos (email sin formato)
+07-18 16:50:43.081 22866 22866 I flutter :   
+07-18 16:50:43.084 22866 22866 I flutter : PatrolBinding: tearDown(): count: 4, results: {TC-01 - Registrarse con datos válidos: success, TC-02 - Registrarse con datos inválidos (contraseña vacía): success, a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato): {"methodName":"a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)","details":"══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════\nThe following TestFailure was thrown running a test:\nExpected: no matching candidates\n  Actual: _TextWidgetFinder:<Found 1 widget with text \"Registro\nexitoso\": [\n            Text(\"Registro exitoso\", dependencies:\n[DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),\n          ]>\n   Which: means one was found but none were expected\n\nWhen the exception was thrown, this was the stack:\n#4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/
+07-18 16:50:43.085 22866 22866 I flutter : PatrolBinding: finished test a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato). Will report its status back to the native side
+07-18 16:50:43.085 22866 22866 I flutter : PatrolBinding: tearDown(): test "TC-03 - Registrarse con datos inválidos (email sin formato)" in group "a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)", passed: false
+07-18 16:50:43.087 22866 22866 I flutter : PatrolAppService.markDartTestAsCompleted(): a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)
+07-18 16:50:43.096 22866 22866 I flutter : 2026-07-18T16:50:38.541456  0:00:04.554670 POST    [200] /runDartTest
+07-18 16:50:43.097 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.089403","type":"test","name":"a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)","status":"failure","error":null}
+07-18 16:50:43.100 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.091468","type":"error","message":"══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞══��══════════════"}
+07-18 16:50:43.101 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.091549","type":"error","message":"The following TestFailure was thrown running a test:"}
+07-18 16:50:43.101 22866 22866 I flutter : 00:05 +3 -1: carrito.tests.carrito_test TC-07 - Crear un carrito de compra y concretarlo
+07-18 16:50:43.101 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.091786","type":"error","message":"Expected: no matching candidates"}
+07-18 16:50:43.104 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.091947","type":"error","message":"  Actual: _TextWidgetFinder:<Found 1 widget with text \"Registro"}
+07-18 16:50:43.104 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092017","type":"error","message":"exitoso\": ["}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092095","type":"error","message":"            Text(\"Registro exitoso\", dependencies:"}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092149","type":"error","message":"[DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),"}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092238","type":"error","message":"          ]>"}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092316","type":"error","message":"   Which: means one was found but none were expected"}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092336","type":"error","message":""}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092346","type":"error","message":"When the exception was thrown, this was the stack:"}
+07-18 16:50:43.105 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092356","type":"error","message":"#4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart:49:5)"}
+07-18 16:50:43.106 22866 22880 D UiDevice: Executing shell command: logcat -d
+07-18 16:50:43.106 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092366","type":"error","message":"#5      main.<anonymous closure> (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/tests/registro_test.dart:104:22)"}
+07-18 16:50:43.106 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092376","type":"error","message":"<asynchronous suspension>"}
+07-18 16:50:43.106 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092386","type":"error","message":"#6      patrolTest.<anonymous closure> (package:patrol/src/common.dart:169:9)"}
+07-18 16:50:43.106 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092396","type":"error","message":"<asynchronous suspension>"}
+07-18 16:50:43.106 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092418","type":"error","message":"#7      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)"}
+07-18 16:50:43.106 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092611","type":"error","message":"<asynchronous suspension>"}
+07-18 16:50:43.107 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092621","type":"error","message":"#8      PatrolBinding._wrapTestBodyWithExceptionGatherer (package:patrol/src/binding.dart:246:5)"}
+07-18 16:50:43.109 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092681","type":"error","message":"<asynchronous suspension>"}
+07-18 16:50:43.109 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.092752","type":"error","message":"#9      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1952:5)"}
+07-18 16:50:43.109 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093001","type":"error","message":"<asynchronous suspension>"}
+07-18 16:50:43.109 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093159","type":"error","message":"#10     TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1706:12)"}
+07-18 16:50:43.110 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093451","type":"error","message":"<asynchronous suspension>"}
+07-18 16:50:43.110 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093695","type":"error","message":""}
+07-18 16:50:43.111 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093796","type":"error","message":"This was caught by the test expectation on the following line:"}
+07-18 16:50:43.111 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093841","type":"error","message":"  file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart line 49"}
+07-18 16:50:43.111 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.093972","type":"error","message":"The test description was:"}
+07-18 16:50:43.111 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.094004","type":"error","message":"  TC-03 - Registrarse con datos inválidos (email sin formato)"}
+07-18 16:50:43.111 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.094018","type":"error","message":"════════════════════��════════════════════════════════════════════"}
+07-18 16:50:43.111 22866 22866 I flutter : PATROL_LOG {"timestamp":"2026-07-18T16:50:43.094028","type":"error","message":""}
+07-18 16:50:43.112   713  1986 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_shortcut_target_service, current:{}, new:{}
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_button_targets, current:{}, new:{}
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_gesture_targets, current:{}, new:{}
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_qs_targets, current:{}, new:{}
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_key_gesture_targets, current:{}, new:{}
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_top_row_key_targets, current:{}, new:{}
+07-18 16:50:43.113  2828  3590 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+07-18 16:50:43.113   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_quick_access_targets, current:{}, new:{}
+07-18 16:50:43.113   713  1986 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+07-18 16:50:43.113   713  1986 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+07-18 16:50:43.114  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.115  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.115  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.115  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.115   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.115   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.115   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.115   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.115   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.116  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.117  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.118  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.118  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.118  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.119   713  1986 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+07-18 16:50:43.119   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.119   713  1986 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x1) when called by user 0
+07-18 16:50:43.119   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.122   713  1986 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+07-18 16:50:43.123  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.125   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_shortcut_target_service, current:{}, new:{}
+07-18 16:50:43.125   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_button_targets, current:{}, new:{}
+07-18 16:50:43.125   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_gesture_targets, current:{}, new:{}
+07-18 16:50:43.125   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_qs_targets, current:{}, new:{}
+07-18 16:50:43.125   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_key_gesture_targets, current:{}, new:{}
+07-18 16:50:43.126   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_top_row_key_targets, current:{}, new:{}
+07-18 16:50:43.126   713  1986 V AccessibilityUserState: updateShortcutTargets: type:accessibility_quick_access_targets, current:{}, new:{}
+07-18 16:50:43.126   713  1986 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+07-18 16:50:43.127  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.127  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.127  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.127  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.127  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.128   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.128   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.128   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.130  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-18 16:50:43.131  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface ambientcue with targets# 0 (types=[])
+07-18 16:50:43.131  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-18 16:50:43.137  1039  1144 I AmbientCueRepository: Receiving SmartSpace targets # 0
+07-18 16:50:43.139  2828  3590 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+07-18 16:50:43.139   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.140   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.141   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.141   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.142   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: Handler (android.os.Handler) {933f2c8} sending message to a Handler on a dead thread
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: java.lang.IllegalStateException: Handler (android.os.Handler) {933f2c8} sending message to a Handler on a dead thread
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.MessageQueue.logDeadThread(MessageQueue.java:381)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.MessageQueue.enqueueMessageLegacy(MessageQueue.java:501)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:395)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:854)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:798)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.Handler.sendMessageDelayed(Handler.java:768)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.Handler.post(Handler.java:488)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.HandlerExecutor.execute(HandlerExecutor.java:42)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.accessibilityservice.AccessibilityService$IAccessibilityServiceClientWrapper.init(AccessibilityService.java:2954)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.accessibilityservice.IAccessibilityServiceClient$Stub.onTransact(IAccessibilityServiceClient.java:232)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1369)
+07-18 16:50:43.144 22866 22950 W LegacyMessageQueue: 	at android.os.Binder.execTransact(Binder.java:1323)
+07-18 16:50:43.144 22866 22950 W Binder  : Caught a RuntimeException from the binder stub implementation.
+07-18 16:50:43.144 22866 22950 W Binder  : java.util.concurrent.RejectedExecutionException: Handler (android.os.Handler) {933f2c8} is shutting down
+07-18 16:50:43.144 22866 22950 W Binder  : 	at android.os.HandlerExecutor.execute(HandlerExecutor.java:43)
+07-18 16:50:43.144 22866 22950 W Binder  : 	at android.accessibilityservice.AccessibilityService$IAccessibilityServiceClientWrapper.init(AccessibilityService.java:2954)
+07-18 16:50:43.144 22866 22950 W Binder  : 	at android.accessibilityservice.IAccessibilityServiceClient$Stub.onTransact(IAccessibilityServiceClient.java:232)
+07-18 16:50:43.144 22866 22950 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1369)
+07-18 16:50:43.144 22866 22950 W Binder  : 	at android.os.Binder.execTransact(Binder.java:1323)
+07-18 16:50:43.145   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.145   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.145   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.145   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.145   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.146   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.146   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.146   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.146   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.146   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.147   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.147   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.147   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.147   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.147   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.147   713   713 D BatterySaverPolicy: accessibility changed to false, updating policy.
+07-18 16:50:43.148   713   713 D BatterySaverPolicy: accessibility changed to true, updating policy.
+07-18 16:50:43.167  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.167  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.167  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.167  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.168  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.168  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.168  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.168  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.168  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.168  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.168  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.168  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.168  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.168  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.168  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.169  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-18 16:50:43.169  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface ambientcue with targets# 0 (types=[])
+07-18 16:50:43.169  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface home with targets# 0 (types=[])
+07-18 16:50:43.169  1039  1144 I AmbientCueRepository: Receiving SmartSpace targets # 0
+07-18 16:50:43.223 22866 22880 D UiDevice: Setting accessibility service flags: 65618
+07-18 16:50:43.225   713  1955 V AccessibilityManagerService: onUserStateChangedLocked for userId: 0, forceUpdate: false
+07-18 16:50:43.226  2828  3590 I AiAiEcho: Settings changed for uri: content://settings/secure/accessibility_enabled
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_shortcut_target_service, current:{}, new:{}
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_button_targets, current:{}, new:{}
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_gesture_targets, current:{}, new:{}
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_qs_targets, current:{}, new:{}
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_key_gesture_targets, current:{}, new:{}
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_top_row_key_targets, current:{}, new:{}
+07-18 16:50:43.226   713  1955 V AccessibilityUserState: updateShortcutTargets: type:accessibility_quick_access_targets, current:{}, new:{}
+07-18 16:50:43.226   713  1955 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+07-18 16:50:43.229   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.230  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.231 22866 22866 I flutter : PatrolAppService: registered "carrito.tests.carrito_test TC-07 - Crear un carrito de compra y concretarlo"
+07-18 16:50:43.231 22866 22866 I flutter : PatrolAppService: registered test "carrito.tests.carrito_test TC-07 - Crear un carrito de compra y concretarlo" was not matched by requested test "a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)"
+07-18 16:50:43.235   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.236  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.236  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.236  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.236   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.237   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:43.237   540   579 W skia    : AGTM parsing failed flags.readFromStream(s) at 159
+07-18 16:50:43.238   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.238   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.239  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.239   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.240   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.240   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.241  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.241   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.241   713   713 W libbinder.IPCThreadState: Sending oneway calls to frozen process.
+07-18 16:50:43.243  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.243  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.243  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.243   713  1955 D AccessibilityManagerService: .getAccessibilityShortcutTargets {shortcutType=32, userId=0}
+07-18 16:50:43.244  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.244  2828  2948 I AiAiEcho: Predicting[0]:  [CONTEXT sampling_count=5 ]
+07-18 16:50:43.244  2828  2948 I AiAiEcho: EchoTargets: 
+07-18 16:50:43.244  2828  2948 I AiAiEcho: Filtered by AiAi flag check: 
+07-18 16:50:43.244  2828  2948 I AiAiEcho: [CONTEXT ratelimit_period="10 SECONDS" ]
+07-18 16:50:43.245  2828  2948 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+07-18 16:50:43.245  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface lockscreen with targets# 0 (types=[])
+07-18 16:50:43.246  2828  2948 I AiAiEcho: #postPredictionTargets: Sending updates to UISurface ambientcue with targets# 0 (types=[])

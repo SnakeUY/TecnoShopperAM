@@ -1,0 +1,69 @@
+{
+    "name": "runDartTest[a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)]",
+    "start": 1784393438353,
+    "stop": 1784393444002,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "failed",
+    "statusDetails": {
+        "message": "Dart test failed: a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)\n══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════\nThe following TestFailure was thrown running a test:\nExpected: no matching candidates\n  Actual: _TextWidgetFinder:<Found 1 widget with text \"Registro\nexitoso\": [\n            Text(\"Registro exitoso\", dependencies:\n[DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),\n          ]>\n   Which: means one was found but none were expected\n\nWhen the exception was thrown, this was the stack:\n#4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart:49:5)\n#5      main.<anonymous closure> (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/tests/registro_test.dart:104:22)\n<asynchronous suspension>\n#6      patrolTest.<anonymous closure> (package:patrol/src/common.dart:169:9)\n<asynchronous suspension>\n#7      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)\n<asynchronous suspension>\n#8      PatrolBinding._wrapTestBodyWithExceptionGatherer (package:patrol/src/binding.dart:246:5)\n<asynchronous suspension>\n#9      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1952:5)\n<asynchronous suspension>\n#10     TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1706:12)\n<asynchronous suspension>\n\nThis was caught by the test expectation on the following line:\n  file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart line 49\nThe test description was:\n  TC-03 - Registrarse con datos inválidos (email sin formato)\n═════════════════════════════════════════════════════════════════\n",
+        "trace": "java.lang.AssertionError: Dart test failed: a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)\n══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════\nThe following TestFailure was thrown running a test:\nExpected: no matching candidates\n  Actual: _TextWidgetFinder:<Found 1 widget with text \"Registro\nexitoso\": [\n            Text(\"Registro exitoso\", dependencies:\n[DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),\n          ]>\n   Which: means one was found but none were expected\n\nWhen the exception was thrown, this was the stack:\n#4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart:49:5)\n#5      main.<anonymous closure> (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/tests/registro_test.dart:104:22)\n<asynchronous suspension>\n#6      patrolTest.<anonymous closure> (package:patrol/src/common.dart:169:9)\n<asynchronous suspension>\n#7      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)\n<asynchronous suspension>\n#8      PatrolBinding._wrapTestBodyWithExceptionGatherer (package:patrol/src/binding.dart:246:5)\n<asynchronous suspension>\n#9      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1952:5)\n<asynchronous suspension>\n#10     TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1706:12)\n<asynchronous suspension>\n\nThis was caught by the test expectation on the following line:\n  file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart line 49\nThe test description was:\n  TC-03 - Registrarse con datos inválidos (email sin formato)\n═════════════════════════════════════════════════════════════════\n\n\tat pl.leancode.patrol.PatrolJUnitRunner.runDartTest(PatrolJUnitRunner.java:158)\n\tat com.example.flutter_ces.MainActivityTest.runDartTest(MainActivityTest.java:45)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat io.qameta.allure.android.rules.LogcatRule$apply$1.evaluate(LogcatRule.kt:23)\n\tat io.qameta.allure.android.rules.ScreenshotRule$apply$1.evaluate(ScreenshotRule.kt:22)\n\tat io.qameta.allure.android.rules.WindowHierarchyRule$apply$1.evaluate(WindowHierarchyRule.kt:21)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2637)\n"
+    },
+    "steps": [],
+    "attachments": [
+        {
+            "source": "659384c5-2320-4848-84c0-1b32fefa96ba-attachment.txt",
+            "name": "logcat-dump",
+            "type": "text/plain"
+        },
+        {
+            "source": "b5f33c67-4676-4197-9a21-11712f87d10e-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        },
+        {
+            "source": "88494da9-08fb-4812-86e4-0b8d609fd76a-attachment.xml",
+            "name": "window-hierarchy",
+            "type": "text/xml"
+        }
+    ],
+    "parameters": [],
+    "uuid": "0bc0bac1-589b-433f-80f0-c309a6e4c94b",
+    "historyId": "ef1bb6e21834c4218300e2a76829dbae",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[a_registro.tests.registro_test TC-03 - Registrarse con datos inválidos (email sin formato)]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(47)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

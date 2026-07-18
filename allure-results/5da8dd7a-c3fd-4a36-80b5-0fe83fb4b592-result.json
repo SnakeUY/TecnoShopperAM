@@ -1,0 +1,56 @@
+{
+    "name": "runDartTest[perfil.tests.perfil_test TC-09 - Configurar y guardar información personal]",
+    "start": 1784393551727,
+    "stop": 1784393565706,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [
+        {
+            "source": "6360cffb-b7d3-4a08-8fed-eec422e94998-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [],
+    "uuid": "5da8dd7a-c3fd-4a36-80b5-0fe83fb4b592",
+    "historyId": "c475a1ca62e67e977faae3484b7d25c",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[perfil.tests.perfil_test TC-09 - Configurar y guardar información personal]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[perfil.tests.perfil_test TC-09 - Configurar y guardar información personal]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(46)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

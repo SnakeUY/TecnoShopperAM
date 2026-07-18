@@ -1,0 +1,69 @@
+{
+    "name": "runDartTest[a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)]",
+    "start": 1784393427853,
+    "stop": 1784393433293,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "failed",
+    "statusDetails": {
+        "message": "Dart test failed: a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)\n══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════\nThe following TestFailure was thrown running a test:\nExpected: no matching candidates\n  Actual: _TextWidgetFinder:<Found 1 widget with text \"Registro\nexitoso\": [\n            Text(\"Registro exitoso\", dependencies:\n[DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),\n          ]>\n   Which: means one was found but none were expected\n\nWhen the exception was thrown, this was the stack:\n#4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart:49:5)\n#5      main.<anonymous closure> (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/tests/registro_test.dart:79:22)\n<asynchronous suspension>\n#6      patrolTest.<anonymous closure> (package:patrol/src/common.dart:169:9)\n<asynchronous suspension>\n#7      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)\n<asynchronous suspension>\n#8      PatrolBinding._wrapTestBodyWithExceptionGatherer (package:patrol/src/binding.dart:246:5)\n<asynchronous suspension>\n#9      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1952:5)\n<asynchronous suspension>\n#10     TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1706:12)\n<asynchronous suspension>\n\nThis was caught by the test expectation on the following line:\n  file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart line 49\nThe test description was:\n  TC-02 - Registrarse con datos inválidos (contraseña vacía)\n═════════════════════════════════════════════════════════════════\n",
+        "trace": "java.lang.AssertionError: Dart test failed: a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)\n══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞═════════════════\nThe following TestFailure was thrown running a test:\nExpected: no matching candidates\n  Actual: _TextWidgetFinder:<Found 1 widget with text \"Registro\nexitoso\": [\n            Text(\"Registro exitoso\", dependencies:\n[DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),\n          ]>\n   Which: means one was found but none were expected\n\nWhen the exception was thrown, this was the stack:\n#4      RegistroRobot.verificarRegistroFallido (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart:49:5)\n#5      main.<anonymous closure> (file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/tests/registro_test.dart:79:22)\n<asynchronous suspension>\n#6      patrolTest.<anonymous closure> (package:patrol/src/common.dart:169:9)\n<asynchronous suspension>\n#7      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)\n<asynchronous suspension>\n#8      PatrolBinding._wrapTestBodyWithExceptionGatherer (package:patrol/src/binding.dart:246:5)\n<asynchronous suspension>\n#9      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1952:5)\n<asynchronous suspension>\n#10     TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1706:12)\n<asynchronous suspension>\n\nThis was caught by the test expectation on the following line:\n  file:///C:/CES/WK-1/Tareas/Patrol/patrol_allure/atdm-automation-flutter/tecnoshopper/patrol_test/a_registro/robot/registro_robot.dart line 49\nThe test description was:\n  TC-02 - Registrarse con datos inválidos (contraseña vacía)\n═════════════════════════════════════════════════════════════════\n\n\tat pl.leancode.patrol.PatrolJUnitRunner.runDartTest(PatrolJUnitRunner.java:158)\n\tat com.example.flutter_ces.MainActivityTest.runDartTest(MainActivityTest.java:45)\n\tat java.lang.reflect.Method.invoke(Native Method)\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\n\tat io.qameta.allure.android.rules.LogcatRule$apply$1.evaluate(LogcatRule.kt:23)\n\tat io.qameta.allure.android.rules.ScreenshotRule$apply$1.evaluate(ScreenshotRule.kt:22)\n\tat io.qameta.allure.android.rules.WindowHierarchyRule$apply$1.evaluate(WindowHierarchyRule.kt:21)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:137)\n\tat org.junit.runner.JUnitCore.run(JUnitCore.java:115)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:67)\n\tat androidx.test.internal.runner.TestExecutor.execute(TestExecutor.java:58)\n\tat androidx.test.runner.AndroidJUnitRunner.onStart(AndroidJUnitRunner.java:446)\n\tat android.app.Instrumentation$InstrumentationThread.run(Instrumentation.java:2637)\n"
+    },
+    "steps": [],
+    "attachments": [
+        {
+            "source": "30169a15-b7a0-4d9e-a8be-5f2ccd5262c8-attachment.txt",
+            "name": "logcat-dump",
+            "type": "text/plain"
+        },
+        {
+            "source": "42e2f15f-4150-4674-8ab5-56553f7ac6b4-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        },
+        {
+            "source": "a4e367f9-3605-4b97-93a0-8e60b929a2bd-attachment.xml",
+            "name": "window-hierarchy",
+            "type": "text/xml"
+        }
+    ],
+    "parameters": [],
+    "uuid": "197a2f08-fcc9-4aa7-82df-3edcd0616174",
+    "historyId": "6eb33c8f752fb6743cd89a54c0b1a235",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[a_registro.tests.registro_test TC-02 - Registrarse con datos inválidos (contraseña vacía)]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(47)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

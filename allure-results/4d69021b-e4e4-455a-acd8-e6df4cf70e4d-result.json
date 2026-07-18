@@ -1,0 +1,56 @@
+{
+    "name": "runDartTest[a_registro.tests.registro_test TC-01 - Registrarse con datos válidos]",
+    "start": 1784393411481,
+    "stop": 1784393422994,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [
+        {
+            "source": "26c8e771-ceb2-4bdb-bee5-c299a42cda51-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [],
+    "uuid": "4d69021b-e4e4-455a-acd8-e6df4cf70e4d",
+    "historyId": "6cff9cfb46640806f72efdffc83e854f",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[a_registro.tests.registro_test TC-01 - Registrarse con datos válidos]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[a_registro.tests.registro_test TC-01 - Registrarse con datos válidos]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(46)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

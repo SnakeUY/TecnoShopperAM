@@ -1,0 +1,56 @@
+{
+    "name": "runDartTest[login.tests.login_test TC-06 - Iniciar sesión con datos inválidos (email no registrado)]",
+    "start": 1784393542105,
+    "stop": 1784393546677,
+    "stage": "finished",
+    "description": null,
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [],
+    "attachments": [
+        {
+            "source": "0f1cece7-6d53-4f93-8cdd-6d42b3a62a41-attachment.png",
+            "name": "ss_end",
+            "type": "image/png"
+        }
+    ],
+    "parameters": [],
+    "uuid": "82463540-b550-49f3-a53c-8fc068b65199",
+    "historyId": "bf1860b5a16e10620d14097d71ac2ee0",
+    "fullName": "com.example.flutter_ces.MainActivityTest.runDartTest[login.tests.login_test TC-06 - Iniciar sesión con datos inválidos (email no registrado)]",
+    "labels": [
+        {
+            "name": "package",
+            "value": "com.example.flutter_ces"
+        },
+        {
+            "name": "testClass",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "runDartTest[login.tests.login_test TC-06 - Iniciar sesión con datos inválidos (email no registrado)]"
+        },
+        {
+            "name": "suite",
+            "value": "com.example.flutter_ces.MainActivityTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: com.example.flutter_ces.AllurePatrolJUnitRunner(46)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
